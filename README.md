@@ -27,7 +27,7 @@ encrypt a text file,we do the following:
 5. Prompt the user to enter the name to save the unencrypted file(copyFile), because we have encrypted the userFile.If you don't do this step,the user can lose his unencrypted file and to retrieve it, he will have to decrypt the encrypted file.
 6. Check if the new name of the unencrypted file does not exist in the current working directory.
 
-###FINAL STEP:quitting the program
+### FINAL STEP:quitting the program
 In the code, you will notice the following:
 `print 'Press Enter to quit'`
 `if plainFile == "":`
