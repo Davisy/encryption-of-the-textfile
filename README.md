@@ -5,7 +5,7 @@ This is the project for encryption of the text file by using python programming 
 
 Python’s ord and chr functions convert characters to their numeric ASCII codes and back again, respectively.Please keep in mind that in Caesar cipher, each letter in the plaintext is replaced with the character that occurs in a given agreed distance value away in the sequence and ASCII is the numerical representation of a character
 
-###FIRST STEP:import python modules
+### FIRST STEP:import python modules
 We have to import the os and shutil modules. The os module provides methods we can use to perform file processing operations.we will use the following methods from the os module we imported.
 1. The `os.getcwd()` method returns a string representing the current working directory. we'll assign dire to  
    `os.getcwd()`
@@ -17,7 +17,7 @@ We have to import the os and shutil modules. The os module provides methods we c
 The shutil module is for copying files.we will copy a file by just typing this:
 `shutil.copy(originalFile,duplicateFile)`
 
-###SECOND STEP:encryption
+### SECOND STEP:encryption
 We have imported the necessary python modules,So the next step is the Encryption,which we know how to do for a plain text.For us to
 encrypt a text file,we do the following:
 1. Prompt user to enter the text file to encrypt.
